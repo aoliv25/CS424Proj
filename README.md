@@ -64,6 +64,33 @@ I will compare the spread of percentage availability within each location using 
 
 These questions still focus location and timing along with consistency. 
 
+Task 4: Task abstractions
+How does the percentage of open spaces differ between school and the gym during the observed visits?
+Action: Compare
+Target: Distribution of % availability by location
+Abstract: Compare values across locations
+Reasoning: The main action is comparing two groups (locations) based on quantities (open spaces)
+
+How does parking availability vary with time of day at each location?
+Action: Explore relationships
+Target: Observation time and percentage availability in each location
+Abstract: Explore the relationship between time and a value grouped by location.
+Reasoning: The main action is comparing relationships between time and availability.
+
+How does availability differ across days at similar observation times?
+Action: Compare
+Target: Availability on different dates within the same location and time
+Abstract: Compare values across dates holding category and time consistent.
+Reasoning: The main action is holding the location and time consistent.
+
+Which location shows greater variation in the percentage of open spaces across observations?
+Action: Compare variability
+Target: Spread of percentage availability within each location
+Abstract: Compare the spread of value distributions across categories.
+Reasoning: The main action is comparing variability.
+
+Identifying the comparisons and relationships allows me to see what exactly I need to collect and compare. It makes it easier to see which visualizations I will need.
+
 
 
   
