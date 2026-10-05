@@ -98,5 +98,24 @@ Two calendars. One for school and one for the gym. In each date box, add a circl
 This design places observations into calendar boxes, separated by location. Each observation uses a circle mark, with text for percentage. The design shows comparisons across locations, dates, and time slots. It also makes gaps in data collection visible. 
 
 
+##Task 6 Summarizing (For the sake of time I have first brainstormed the visualizations then I will create them.
+
+My designs show parking availability from three views: observations across daEach emphasizes different aspects of the same dataset.
+
+The calendar shows exactly when observations occurred. It allows for comparisons across days and makes missing data visible. Days with many observations can become too crowded. 
+
+The clock shows observations from different dates grouped together by time of day. This could help show similarities between observations taken at similar times. The layout is similar to a pie chart where the angle changes on quantity. The downside is that the radius are difficult to compare if there are similar values. 
+
+The strip plot shows the clearest comparison of availability and variation between locations. A shared scale accounts for the different parking capacities between lots, while dots show repeated values. Its main weakness is that it gives less emphasis to dates and times. 
+
+The designs address the four domain questions. The calendar and strip plot compare availability between locations. The clock and calendar explore timing, while the calendar supports comparisons at repeated time slots across days. The strip plot makes differences in spread easy to read. 
+
+Showing individual observations and missing periods makes the gaps more visible. With a larger dataset, the calendar and clock can become crowded
+
+##Task 7 
+Did it by myself, maybe regret it
+
+
+
 
   
