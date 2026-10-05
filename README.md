@@ -40,6 +40,30 @@ Collected Data
 
 I collected 22 observations across seven days between  9-24 and  10-1. 13 at school and 9 at the gym. At school, I counted all 45 spaces: 23 on the left side and 22 on the right side. At the gym, I observed the same area of 34 spaces, the third floor where I park. I completed the collection individually and recorded the counts in a notes log. School availability ranged from 0 to 28 open spaces. Gym availability ranged from 19 to 29. Because the areas have different capacities, I will compare percentages of open spaces.
 
+##Task 3 Data description and domain questions
+My dataset contains 22 parking observations collected across seven days between September 24 and October 1, 2026. There are 13 observations of a 45 space at the HLPS Lot and 9 observations of a 34 space third floor parking area at the LA Fitness on Ashland and Belmont. I manually counted open spaces and recorded the location, date, and time. The dataset also includes each location’s capacity which allows me to calculate the percentage open.
+
+The observations capture variation across locations, days, and times. School counts ranged from 0 to 28 open spaces, while gym counts ranged from 19 to 29. The observations follow my personal schedule and are uneven. This is a potential bias. School and gym were often observed at different hours. Clarified using AM or PM. Will start recording in a 24hr format to remove that label and allow for a more clean csv file. Will include label to see if any spots were "open" but blocked by bad drivers.
+
+Converting each count into a percent allows me to better compare observations since both lots have different capacities. Focusing on only parking spots limits me since it doesn't include time searching for parking, or how long people actually stay. There can be people waiting in their car to leave but still get marked down as "occupied".
+
+Revised Domain Questions
+1. How does the percentage of open spaces differ between school and the gym during the observed visits?
+This comparison could reveal differences in the parking availability encountered. It will also allow me to use observations collected by other individuals willing to record more data.  I will use location, open_spaces, and total_spaces to compare percentage availability.
+
+2. How does parking availability vary with time of day at each location?
+This question explores whether early and late observations show different availability. I will use time, location, date, and the percentage of open spaces. 
+
+3. How does availability differ across days at similar observation times?
+
+This can allow for distinction in schedules for those with MWF or TTH schedules, which is more popular based on parking availability.
+
+4. Which location shows greater variation in the percentage of open spaces across observations?
+
+I will compare the spread of percentage availability within each location using location, open_spaces, and total_spaces. This will describe variation in my sample rather than  which location is more predictable.
+
+These questions still focus location and timing along with consistency. 
+
 
 
   
