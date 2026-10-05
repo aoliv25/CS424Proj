@@ -64,7 +64,7 @@ I will compare the spread of percentage availability within each location using 
 
 These questions still focus location and timing along with consistency. 
 
-Task 4: Task abstractions
+##Task 4: Task abstractions
 How does the percentage of open spaces differ between school and the gym during the observed visits?
 Action: Compare
 Target: Distribution of % availability by location
@@ -90,6 +90,12 @@ Abstract: Compare the spread of value distributions across categories.
 Reasoning: The main action is comparing variability.
 
 Identifying the comparisons and relationships allows me to see what exactly I need to collect and compare. It makes it easier to see which visualizations I will need.
+
+##Task 5:
+<img width="4520" height="4284" alt="IMG_6398" src="https://github.com/user-attachments/assets/cb02745b-9714-4649-8077-6031f7f86218" />
+
+Two calendars. One for school and one for the gym. In each date box, add a circle for every observation with its time. Write the percentage next to it. Leave dates without observations labeled not observed. This helps compare locations and dates. 
+This design places observations into calendar boxes, separated by location. Each observation uses a circle mark, with text for percentage. The design shows comparisons across locations, dates, and time slots. It also makes gaps in data collection visible. 
 
 
 
