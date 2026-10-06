@@ -119,6 +119,14 @@ The shared horizontal scale still represents 0% to 100% open, with separate rows
 These changes add context about when visits occurred. Position represents percentage availability, row represents location, and shape represents time period. 
 Exact times remain hard to compare without labels.
 
+<img width="1522" height="1288" alt="IMG_0036" src="https://github.com/user-attachments/assets/c8494a6b-8139-4b21-b830-ae7e7e4ee5ab" />
+
+This design refines the first clock to explore how availability varies with time of day and how observations at similar times differ across dates. The abstract tasks are exploring a relationship between time and a quantitative attribute and comparing values while holding location and time consistent.
+The initial clock placed 0% availability at the center, causing clutter. The refined design has an inner ring labeled 0%. This allows for ore spacing when there is 0% available.
+
+Each location has its own 24-hour clock using the same scale. Dots represent observations, angle represents time, and radial position represents percentage availability. Date labels identify observations. The inner ring allows fully occupied visits at different times to appear in different positions. A viewer can compare the timing of low availability. Exact percentages remain harder to compare on a circular display than on the strip plot.
+
+
 
 
 ##Task 6 Summarizing (For the sake of time I have first brainstormed the visualizations then I will create them.
