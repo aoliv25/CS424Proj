@@ -92,10 +92,33 @@ Reasoning: The main action is comparing variability.
 Identifying the comparisons and relationships allows me to see what exactly I need to collect and compare. It makes it easier to see which visualizations I will need.
 
 ##Task 5:
-<img width="4520" height="4284" alt="IMG_6398" src="https://github.com/user-attachments/assets/cb02745b-9714-4649-8077-6031f7f86218" />
+<img width="1505" height="1919" alt="IMG_0030" src="https://github.com/user-attachments/assets/41e60d61-aff8-48b4-a476-62a4d4ee33d6" />
+
 
 Two calendars. One for school and one for the gym. In each date box, add a circle for every observation with its time. Write the percentage next to it. Leave dates without observations labeled not observed. This helps compare locations and dates. 
 This design places observations into calendar boxes, separated by location. Each observation uses a circle mark, with text for percentage. The design shows comparisons across locations, dates, and time slots. It also makes gaps in data collection visible. 
+I believe that the circles with times made it a little crowded. Since I am planning on getting more observations per day, I feel like it can become too crowded and will become basically useless. The average percentages were easy to read and provide quick insight on parking availability on a daily basis.
+
+<img width="1489" height="1960" alt="image" src="https://github.com/user-attachments/assets/4d70e63e-3cf5-41e3-a18f-ab1b603822e9" />
+
+This design uses a separate 24 hour clock for each location. Dots represent observations. angle position represents time of day, and distance from the center represents percentage availability. Date labels distinguish observations from different days. The goal is to explore whether similar observation times have similar availability. Unlike the calendar, this design brings observations from different dates together around time of day.
+Similar to calendar, it gets too crowded. Times can overlap causing data to be jumbled up.
+
+<img width="1470" height="1042" alt="image" src="https://github.com/user-attachments/assets/73a6cb83-528a-43dc-88ee-e7c854821d55" />
+This design places individual observations along a shared horizontal scale from 0% to 100%, with separate rows for school and the gym. Dots represent observations, and horizontal position represents percentage availability. Repeated values are stacked so that every observation remains visible. 
+
+This seems to be the clearest visualization since it avoids cluttering. One downside is that we lose time stamps.
+
+Refined:
+<img width="1498" height="1144" alt="IMG_0035" src="https://github.com/user-attachments/assets/1bb54c0d-f1be-4755-b1cb-54bcaa7098d5" />
+
+Refining the plot to add symbols for time. Currently there is no way to distinguish time across observations. This design refines the initial strip plot to address the abstract tasks which are comparing quantitative distributions across categories and comparing their spread.
+
+The shared horizontal scale still represents 0% to 100% open, with separate rows for school and the gym. Each mark represents one observation, and repeated values are stacked. I added different shapes for observations before noon, from noon to 5 p.m., and after 5 p.m. A legend shows this
+
+These changes add context about when visits occurred. Position represents percentage availability, row represents location, and shape represents time period. 
+Exact times remain hard to compare without labels.
+
 
 
 ##Task 6 Summarizing (For the sake of time I have first brainstormed the visualizations then I will create them.
