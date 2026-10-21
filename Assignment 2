@@ -1,1 +1,21 @@
+##Task 1: Revisit your data and questions
+The updated data set has grown from the original observations up to 89 visits. It will keep growing as the project continues. The data now inclues data for blocked parking spaces in the case of bad drivers. My guiding questions remain similar changing one to fit the new "inaccesible" data:
+
+-How does the percentage of accesible spaces differ between the two locations durign the recorded visits?
+
+-How does availability vary with time of day and weekday/holiday within each location?
+
+-When were inacessible spaces recorded, and how long were they present for?
+
+This larger data set extends my previous observations and adds the inaccessible attribute. To better explain, inaccessible means the space was available but unusable due to double parking at the time of recording. I have also recruited the help of someone to help me record more observations per day. I have also started recording disability/reserved spots, these will be included in the next part of the project. These additions are meant to address the limited coverage of the data. This will help achieve more meaningful data analysis.
+
+##Task 2: Prepare the data
+
+
+
+
+
+
+
+
 
