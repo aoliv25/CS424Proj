@@ -10,7 +10,7 @@ The updated data set has grown from the original observations up to 89 visits. I
 This larger data set extends my previous observations and adds the inaccessible attribute. To better explain, inaccessible means the space was available but unusable due to double parking at the time of recording. I have also recruited the help of someone to help me record more observations per day. I have also started recording disability/reserved spots, these will be included in the next part of the project. These additions are meant to address the limited coverage of the data. This will help achieve more meaningful data analysis.
 
 ##Task 2: Prepare the data
-The data was cleaned and formatted into a csv format for the best readability. The parking_data.csv file in the repo has been updated to reflect these changes and alos my new data and attributes. I record the data in a table format on my phone and then change it into csv format.
+The data was cleaned and formatted into a csv format for the best readability. The parking_data.csv file in the repo has been updated to reflect these changes and alos my new data and attributes. I record the data in a table format on my phone and then change it into csv format. I also added a percentage column to more easily compare availability across times and days
 
 
 
