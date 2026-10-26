@@ -17,7 +17,10 @@ For task 3 I created two plots using RStudio. I imported my csv and used it crea
 
 My second plot is used to supplement my first plot to help understand the patterns. The second plot shows when my observations were recording, plotting Time against Day. Sundays have not data because I don't go to the gym nor do I go to school. This is something I can clean with my data later so I dont include an unnecesary day in my data which has no values. This plot shows patterns in my schedule. It basically shows when I go to school, go out for lunch, and go to the gym. I think none of the observations are misleading with the range of data I have, I accurately depict morning, afternoon, and evening routines.
 
-Aggregation would hide important differences. ALot of this data shows patterns in routines based on weekday, time, and location. Like I mentioned before Mondays seem busiest at the gym and averaging this across the same time on different days would hide this unusual patter. Showing the individual observations preserves these outliers. I think the transformation I did in Task 2 is sufficient for what I am trying to observe. When I add more data, I will have to do more transformations.
+Aggregation would hide important differences. ALot of this data shows patterns in routines based on weekday, time, and location. Like I mentioned before Mondays seem busiest at the gym and averaging this across the same time on different days would hide this unusual patter. Showing the individual observations preserves these outliers. I think the transformation I did in Task 2 is sufficient for what I am trying to observe. When I add more data, I will have to do more transformations. Exploration helped make my questions more specific. Focusing more on time of day and how it affects availability. I may also include a supplemental data set to observe more specifc patterns. If I also include weather data I can also observe how weather affects availability in parking lots.
+
+ ##Task 4: Implement visualization alternatives
+
 
 
 
