@@ -21,10 +21,14 @@ Aggregation would hide important differences. ALot of this data shows patterns i
 
  ##Task 4: Implement visualization alternatives
 Strip Plot: This plot is a quick visual to see how many observations there are at each percentage level of capacity. Each location gets its own row. Each dot represents one signe visit. Horizontal position is the percent available. Stacking avoids clutter. I chose this plot because it provides a quick insight on the locations capacties. It doesn't show dates or times, so this is more so just an overview of the data. I could pair it with something that has dates and times or maybe I will ultimately drop it
+<img width="973" height="1096" alt="image" src="https://github.com/user-attachments/assets/d0dbdec0-e0b5-4a6f-8d7d-00ac38db04d4" />
 
 Clocks: I refined my original sketches since they had alot of wasted space. I cut them into shorter clocks that only have the time range of my data. This allows for more spacing with repeated values. Dots are visits, angle is time, and the distance from the center represents the capacity available. Inner ring is 0% while last ring is 100%. I tried this design because I believed it showed the most important data which is time and capacity. Patterns are visible but there is still some overlap. However, it is an improvement from my sketch.
- 
+<img width="973" height="1096" alt="image" src="https://github.com/user-attachments/assets/af25914f-8636-4327-aa69-06891088e891" />
+<img width="973" height="1096" alt="image" src="https://github.com/user-attachments/assets/e4a79972-be41-4fa6-a311-87092bee3c1f" />
+
 Calendar: This one is my favorite along with the clock. These are both things that people use day to day meaning they are able to quickly read them and understand them. It organizes the visits by date, with each date showing time location and percent available. It shows all the data in a clear and easy way to read. The downside is that data is not easily comparable. You have to read to get the data. I do believe it is a good complement to the previous plots though.
+<img width="973" height="1096" alt="image" src="https://github.com/user-attachments/assets/2c36fc4f-18e1-41d4-afcf-5c13cf98e0ab" />
 
 
 
