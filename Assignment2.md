@@ -30,6 +30,26 @@ Clocks: I refined my original sketches since they had alot of wasted space. I cu
 Calendar: This one is my favorite along with the clock. These are both things that people use day to day meaning they are able to quickly read them and understand them. It organizes the visits by date, with each date showing time location and percent available. It shows all the data in a clear and easy way to read. The downside is that data is not easily comparable. You have to read to get the data. I do believe it is a good complement to the previous plots though.
 <img width="973" height="1096" alt="image" src="https://github.com/user-attachments/assets/2c36fc4f-18e1-41d4-afcf-5c13cf98e0ab" />
 
+##Task 5: Interaction and multiple views
+I have decided to do the clocks and calendar together because they complement eachother very well. The clocks show how availability changes with time of day. I believe that having an interaction between both would be helpful. Allowing the user to click two dates on the calendar and compare the clocks for both days would solve the comparison issues I currently have with the calendar. The strip plot is a good overview if you just want to see capacity, sort of like the Google Maps "busy" indicator. However, I'm going to continue developing the clock and calendar into one visualization. Selecting a point on the clock can highlight the entry in the calendar. These features are not implemented yet, but can help. I believe for my project an interaction element is necessary to be able to compare the data.
+
+##Task 6: Iterate and refine
+My visualization have been refined through assignment 2. The changes I have made have been to increase readability and reduce clutter.
+Iteration 1: 
+Originally I had side by side clocks created using RStudio. However, the downside to this was that it made the clocks smaller and created clutter. To resolve this I split the clocks into their own plots. This allowed for bigger clocks and increased readability. To further help I added tick lines to the clock to better estimate the time of observations. I took this a step forward by adding ticks in between the hours to give more room to estimate. Lastly, I added a legend that describes what each ring represents in the clock. I kept the 0% ring from Assignment 1 as it helped reduced clutter. I may add more rings however, I need to to find a balance where I don't just change from cluttered dots to cluttered rings.
+
+Iteration 2:
+Probably the most important iteration in my visualization was the reduction of the clock to only display the minimum and maximum hours of my data. Technically they are no longer clocks, but they function very similarly. Originally I used a 24-hr scale clock even though there was unused space for about half of it, notably at night and in the early mornings. I changed the scale for school down to 6:00 to 20:00. For gym I reduced it down to 9:00 to 21:00. This drastically improved readability since it allowed the plotted data to use more space. There is still clutter where it overlaps but it is more readable and not just a blob of points. I believe increasing the spacing between the rings would also help spread the data more. Overlaps would still occur but they would be more distinguishable.
+
+##Task 7
+I would like to continue pursuing the clocks supported by the calendar. I still need to workout which will support which as it works well both ways, maybe I will have it work both ways. The clock demonstrates how parking availability changes with time of day at each location. The calendar supports this by allowing the user to lookup dates times and percentages for each visit. These two views complement eachother and having them interactively linked would help explore the data.
+
+Compared to my sketches these are more flushed out. The clocks are their own individual plots. The clocks were also reduced to only display the times where data is actually observed. The addition of the 0% ring was also fully implemented from my second round of sketches from assignment 1. The radius lines and hour ticks improve readability. The calendar is also fully implemented. In the sketches it looked to cluttered, but I was able to neatly organize the information for better access. 
+
+I think having these two together works well since one plot supplements the flaws of the other, while also working well individually. I'm still insure how to fix the overlaps with the clocks. I can something similar to the strip plot where repeated observations stack. This wouldn't work since positioning matters so maybe I can use color to represent different amounts of repeated observations.
+
+In Assignment 3, I want to evaluate whether users can read approximate times and percentages and use the calendar to investigate the clock observations. 
+
 
 
 
