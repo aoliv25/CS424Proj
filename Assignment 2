@@ -25,7 +25,8 @@ Strip Plot: This plot is a quick visual to see how many observations there are a
 Clocks: I refined my original sketches since they had alot of wasted space. I cut them into shorter clocks that only have the time range of my data. This allows for more spacing with repeated values. Dots are visits, angle is time, and the distance from the center represents the capacity available. Inner ring is 0% while last ring is 100%. I tried this design because I believed it showed the most important data which is time and capacity. Patterns are visible but there is still some overlap. However, it is an improvement from my sketch.
  
 Calendar: This one is my favorite along with the clock. These are both things that people use day to day meaning they are able to quickly read them and understand them. It organizes the visits by date, with each date showing time location and percent available. It shows all the data in a clear and easy way to read. The downside is that data is not easily comparable. You have to read to get the data. I do believe it is a good complement to the previous plots though.
-<img width="973" height="1096" alt="Image" src="https://github.com/user-attachments/assets/3e0126ce-4034-4775-bdbd-f19320c462d3" />
+
+<img width="1489" height="1960" alt="image" src="https://github.com/user-attachments/assets/4d70e63e-3cf5-41e3-a18f-ab1b603822e9" />
 
 
 
