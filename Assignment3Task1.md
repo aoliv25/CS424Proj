@@ -15,3 +15,8 @@ The interactive version uses a clickable calendar. Selecting a date updates the 
 This interaction allows users to examine daily changes and comparing visits on particular dates. I expect the calendar selection to reduce the effort of finding a date compared with searching through the static views. MY evaluation will investigate the tradeoffs between both observations.
 
 Both versions use the same clocks, colors, and scales. This keeps the design consistent while only changing how users access information. 
+
+
+### Remote study implementation
+
+For remote evaluation, I ported the static clocks and interactive calendar to a GitHub Pages website using HTML, CSS, and JavaScript. Both versions use the same 159 observations and clock scales. Static includes date-specific clocks without an observation-table dropdown. Interactive lets participants click calendar dates and optionally expand exact values. The website assigns condition order and task variants, times tasks after a Start button, and lets participants copy their results into a Google Form without names or emails. A backup CSV download is available; the website has no central response database. The answer key and scoring script are separate from the participant website. The remote procedure and its limitations are documented in study-materials.

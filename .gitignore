@@ -1,0 +1,7 @@
+# Keep participant result files private; keep the empty folder marker.
+study-materials/returned-results/*
+!study-materials/returned-results/.gitkeep
+study-materials/scored_results.csv
+study-materials/condition_summary.csv
+Rplots.pdf
+.DS_Store

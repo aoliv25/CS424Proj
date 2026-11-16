@@ -1,0 +1,45 @@
+/* Basic layout only. The clocks keep their original appearance. */
+body { margin: 16px; color: #20252b; background: white; font: 16px Arial, sans-serif; line-height: 1.5; }
+header { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; }
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+.shell { max-width: 850px; margin: 20px 0; }
+button, select, input { font: inherit; padding: 6px 10px; }
+button, summary { cursor: pointer; }
+label { display: block; margin: 10px 0 5px; }
+.actions, .answer-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
+.answer-row label { margin: 0; }
+.error { color: #a22525; }
+.task-bar { position: sticky; top: 0; background: white; border-bottom: 1px solid #ccc; padding: 10px 0; z-index: 2; }
+.task-heading { display: flex; justify-content: space-between; gap: 20px; }
+.timer { font-size: 20px; font-variant-numeric: tabular-nums; }
+.urgent { color: #a22525; }
+.question { max-width: 1050px; }
+.viz-area { margin-top: 20px; }
+.clock-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 16px 0 28px; }
+.clock-box { background: #f0f3f7; padding: 8px; }
+.clock-box svg { display: block; width: 100%; height: auto; }
+.clock-box text { fill: #20252b; }
+.date-section { scroll-margin-top: 230px; margin-top: 30px; }
+.date-index { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+a { color: #2166ac; }
+.calendar { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; margin: 16px 0; }
+.calendar-heading { text-align: center; }
+.calendar button { min-height: 75px; text-align: left; background: #f0f3f7; border: 1px solid #aab3be; }
+.calendar button[aria-pressed=true] { background: #dceaff; border: 2px solid #2166ac; }
+.calendar button.empty { background: #fafafa; color: #626b77; }
+.day-number { display: block; font-size: 18px; }
+.day-count { display: block; font-size: 12px; }
+.observation-dropdown { margin: 16px 0; }
+.observation-dropdown summary { padding: 10px; background: #e5edf8; font-size: 18px; }
+.table-wrap { overflow: auto; }
+table { border-collapse: collapse; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #ccc; white-space: nowrap; }
+@media (max-width: 850px) {
+  .clock-grid { grid-template-columns: 1fr; }
+  .task-bar { position: relative; }
+  .calendar { gap: 3px; }
+  .calendar button { padding: 4px; }
+  .day-count { font-size: 10px; }
+}
