@@ -1,0 +1,33 @@
+body {background:#ffffff; color:#20252b; color-scheme:light;}
+     .container-fluid {width:100%; max-width:none;}
+     .table {color:#20252b;}
+     summary {cursor:pointer;}
+     .clock-grid {display:flex; flex-wrap:wrap; width:100%;}
+     .clock-panel {width:50%; min-width:0; padding:8px; box-sizing:border-box;}
+     .clock-panel .shiny-plot-output {height:clamp(350px, 48vw, 850px) !important;}
+     .parking-calendar {display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:8px; margin:16px 0 24px;}
+     .calendar-heading {text-align:center; font-weight:600;}
+     .calendar-day {min-height:85px; padding:10px; text-align:left; border:1px solid #ccd3dc;
+       border-radius:6px; background:#f0f3f7; color:#20252b;}
+     .calendar-day:hover {background:#e0e8f3;}
+     .calendar-day[aria-pressed='true'] {background:#dceaff; border:2px solid #2166ac;}
+     .calendar-day:focus-visible {outline:3px solid #2166ac; outline-offset:2px;}
+     .calendar-number {display:block; font-size:18px; font-weight:600;}
+     .calendar-count {display:block; font-size:13px;}
+     .calendar-day.no-visits {background:#fafafa; color:#626b77;}
+     @media(max-width:650px) {.parking-calendar {gap:3px;} .calendar-day {padding:5px;}
+       .calendar-count {font-size:11px;}}
+
+/* Make the observation table dropdown easy to notice. */
+.observation-dropdown {margin:16px 0; border:1px solid #aab3be; border-radius:6px;}
+.observation-dropdown > summary {
+  padding:14px 18px; background:#e5edf8; color:#174a7e;
+  font-size:18px; font-weight:600; cursor:pointer; list-style:none;
+}
+.observation-dropdown > summary::-webkit-details-marker {display:none;}
+.observation-dropdown > summary::before {content:"▶"; display:inline-block; margin-right:12px;}
+.observation-dropdown[open] > summary::before {content:"▼";}
+.observation-dropdown > summary::after {content:" (closed)"; font-weight:400;}
+.observation-dropdown[open] > summary::after {content:" (open — click to collapse)";}
+.observation-dropdown > summary:focus-visible {outline:3px solid #2166ac; outline-offset:2px;}
+.observation-dropdown .shiny-html-output {padding:8px 16px; overflow-x:auto;}
