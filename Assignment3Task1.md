@@ -8,7 +8,9 @@ The static version includes clocks for each date. It also includes overall clock
 
 The interactive version uses a clickable calendar. Selecting a date updates the school and gym clocks. There is also a drop down menu that is clickable and shows the exact observations. Calendar shows the number of visits at each location. Dates without observations are marked “No visits.” Clocks are only shown for locations observed on the selected date.
 <img width="1470" height="652" alt="interactive2" src="https://github.com/user-attachments/assets/a1679d35-bb87-4949-ab3f-f30bedd7be55" />
-<img width="1470" height="811" alt="interactive" src="https://github.com/user-attachments/assets/565130be-0d7d-42ea-888e-c81e6ce0193a" />
+<img width="2940" height="1584" alt="image" src="https://github.com/user-attachments/assets/09d10ceb-51c0-48a2-ba9c-65271e50a3ff" />
+<img width="2940" height="508" alt="image" src="https://github.com/user-attachments/assets/7608773b-b80d-4f10-a923-c548b5740cc9" />
+
 
 This interaction allows users to examine daily changes and comparing visits on particular dates. I expect the calendar selection to reduce the effort of finding a date compared with searching through the static views. MY evaluation will investigate the tradeoffs between both observations.
 
