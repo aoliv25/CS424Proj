@@ -48,3 +48,41 @@ The pilot was run with my brother, who is not part of the ten main participants.
 After the pilot, I added an explanation to both views stating that the bottom gap is outside the displayed time range and does not represent missing observations. The static view still requires scrolling or using its date links, and the interactive table remains optional. These differences will be considered when interpreting the main study.
 
 I also tested the website separately using a software-only pilot code. The final screen copied all four result rows, including completion times, and the Google Form accepted the pasted text. The test fields were cleared without submitting a response. This was a technical check, not another participant pilot.
+
+## Task 4
+I observed 10 participants with four tasks each for a total of 40 results. Each participant answered two questions with each view. There were 39 answers with one participant timing out for one question. A correct answer was worth 1 point. Both incorrect answers and timeouts received 0 points. The answer key was T1A: October 7, T1B: October 14, T2A: October 22, and T2B: October 26.
+
+The static view had 16/20 correct for 80% accuracy. The interactive view had 15/20 or 75%. 9 participants had the same accuracy in both views. P07 answered both static questions correctly but only one interactive question correctly. This shows that the accuracy was skewed by one answer, not necessarily showing a trend.
+
+<img width="1680" height="1126" alt="image" src="https://github.com/user-attachments/assets/afa3f807-66b5-4adb-b478-ecc93c0aa4b2" />
+
+| Measure | Static | Interactive |
+|---|---:|---:|
+| Completed answers | 19 | 20 |
+| Timeouts | 1 | 0 |
+| Average time | 62.2 seconds | 48.9 seconds |
+| Median time | 54.2 seconds | 41.0 seconds |
+| Standard deviation | 39.5 seconds | 24.5 seconds |
+| Median time for correct answers only | 49.6 seconds | 42.3 seconds |
+
+<img width="1684" height="1010" alt="image" src="https://github.com/user-attachments/assets/459f4240-752b-4831-bdc9-884263f61191" />
+
+The time plot shows every attempt and marks the timeout with a single triangle. Using each these averages can see that 6 participants were faster with interactive and 4 were faster with static. The average difference was 19.2 seconds faster with interactive.
+
+For the gym increase questions the static accuracy was 70% and interactive accuracy was 80%. Average completed time was 60 seconds for static and 55.8 seconds for interactive. For the school decrease questions, static accuracy was 90% and interactive accuracy was 70%. Average completed time was 64.1 seconds for static and 41.9 seconds for interactive. Interactive was faster on average for both question types, however there was lower accuracy. 
+
+All five static first participants were faster with the interactive. 4/5 interactive first participants were faster with static. This can show that familiarity may have influenced the times.
+
+In conclusion the results support my hypothesis which was that interactive had lower average times, but it did not improve accuracy. 
+
+## Task 5
+
+The interactive calendar helped participants find specific dates faster, however it did not improve accuracy. Most participants selected a date with the hyperlinks instead of scrolling through the clocks. 4 participants were faster with static, this can be a result of having practice with the question on the first set, not necessarily that this view was better.
+
+One thing that surprised me was that the order in which they did interactive or static had an effect on the results. All 5 participants who started with static were faster with interactive afterward. 4/5 who started with interactive were faster with static afterward. I believe this is because they gained familiarity with the clocks and the questions. I received feedback stating that the clocks were confusing which leads me to believe that they were confused at first but by the second round they were more comfortable with them. This makes it difficult for me to separate practice with actual results on which view is better. In the future I can have more variation with the questions, to remove that practice factor and focus more on visualization accessibility.
+
+The feedback showed that finding dates and understanding the clocks were two different problems. Many participants preferred the calendar, but also wanted labels on them. Some participants also needed to reread the questions. One participant did not initially realize that more static plots were available by scrolling.
+
+Learning from all of this, I would add percentage labels directly to the rings, have more visibility on the fact that the data is scrollable, and simplify the question wording. I would also let users select two dates and display their clocks side by side. This could keep the calendars navigation while also reducing the need to switch between dates and remember earlier values. This would fix the problem of not being able to directly compare results which I believed influence the completion time. 
+
+This study definitely had its limitations. The biggest being two questions per view, which could have factored into the familiarity issue this study faced. All the people tested were tech savvy, which could have skewed the results since all had vast experience with reading graphs and using a computer. Branching out to other demographics such as older people would give me a better idea of what actually works and what doesn't. The wording of the questions was also something that was brought up, I have to make the tasks clearer so people focus more on completing the tasks rather than trying to understand what they are asking. The tasks focused on a single variable which was availability. Having questions that require all the attributes would allow me to test all my data rather than just a specific value. I will continue developing the interactive calendar because it helped with finding dates and had lower average times. The results showed that faster navigation did not guarantee more accurate answers.
